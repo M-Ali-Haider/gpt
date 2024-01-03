@@ -1,0 +1,26 @@
+.box-pfp{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    cursor: pointer;
+}
+.box-pfp img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.box-pfp-menu{
+    position: absolute;
+    top: 7.5%;
+    right: 4.5%;
+    background-color: black;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.box-pfp-menu-unit{
+    padding: 12px 35px;
+    cursor: pointer;
+}
+.box-pfp-menu-border{
+    border-bottom:0.5px solid #e0e0e0; 
+}

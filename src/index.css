@@ -1,0 +1,20 @@
+
+@media (max-width:600px){
+    .sidebar{
+        background-color: black;
+        transform: translateX(-250px);
+    }
+    .box{
+        left: 0;
+        border-radius:0;
+    }
+    .bm{
+        display: flex;
+    }
+    .box-center{
+        width: 80%;
+    }
+    .sidebar-close-arrow{
+        display: flex;
+    }
+}
