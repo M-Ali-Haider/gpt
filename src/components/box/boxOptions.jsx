@@ -1,4 +1,4 @@
-import '../../assets/styles/box/Boxoption.css'
+import '../../assets/styles/box/boxoption.css'
 import algo from '../../assets/images/algorithm.png'
 import letter from '../../assets/images/letters.png'
 import math from '../../assets/images/math.png'
