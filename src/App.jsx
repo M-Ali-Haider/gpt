@@ -18,12 +18,12 @@ function App() {
         />
         <Routes> handleSidebar={handleSidebar}
           <Route path='/gpt/' element={<Box type="homepage" handleSidebar={handleSidebar}/>}/>
-          <Route path='/gpt/math' element={<Box type="math" handleSidebar={handleSidebar}/>}/>
-          <Route path='/gpt/slide' element={<Box type="slide" handleSidebar={handleSidebar}/>}/>
-          <Route path='/gpt/book' element={<Box type="book" handleSidebar={handleSidebar}/>}/>
-          <Route path='/gpt/content' element={<Box type="content" handleSidebar={handleSidebar}/>}/>
-          <Route path='/gpt/code' element={<Box type="code" handleSidebar={handleSidebar}/>}/>
-          <Route path='/gpt/chart' element={<Box type="chart" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/math/' element={<Box type="math" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/slide/' element={<Box type="slide" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/book/' element={<Box type="book" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/content/' element={<Box type="content" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/code/' element={<Box type="code" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/chart/' element={<Box type="chart" handleSidebar={handleSidebar}/>}/>
 
         </Routes>
       </Router>
