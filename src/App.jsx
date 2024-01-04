@@ -11,14 +11,23 @@ function App() {
 
   return (
     <>
-      <Sidebar 
-        isSidebarOpen={isSidebarOpen} 
-        closeSidebar={closeSidebar}
-      />
-      <Box />
-      <div className="bm" onClick={handleSidebar}>
-        
-      </div>
+      <Router>
+        <Sidebar 
+          isSidebarOpen={isSidebarOpen} 
+          closeSidebar={closeSidebar}
+        />
+        <Routes>
+          <Route path='/gpt/' element={<Box type=""/>}/>
+          <Route path='/gpt/math' element={<Box type="math"/>}/>
+          <Route path='/gpt/slide' element={<Box type="slide"/>}/>
+          <Route path='/gpt/book' element={<Box type="book"/>}/>
+          <Route path='/gpt/content' element={<Box type="content"/>}/>
+          <Route path='/gpt/code' element={<Box type="code"/>}/>
+          <Route path='/gpt/chart' element={<Box type="chart"/>}/>
+
+        </Routes>
+      </Router>
+      <div className="bm" onClick={handleSidebar}></div>
     </>
   )
 }
