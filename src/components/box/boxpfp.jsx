@@ -28,7 +28,7 @@ const BoxPfp=({type,handleSidebar})=>{
                 <img src={bm} alt="" />
             </div>
         </div>
-        <div className="box-pfp" onClick={handleMenu}>
+        <div className="box-pfp">
             {type==='homepage'?null
             :(
                 <div className='which-pfp'>
@@ -52,7 +52,7 @@ const BoxPfp=({type,handleSidebar})=>{
                     } alt="" />
                 </div>
             )}
-            <img src={pfp} alt="" />
+            <img  onClick={handleMenu} src={pfp} alt="" />
         </div>
         {isClicked?(
             <div className="box-pfp-menu">
