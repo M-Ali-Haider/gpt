@@ -1,0 +1,21 @@
+function Content({dot}) {
+    return (<div className="page">
+                  <div className='prompt'>
+                      <img src={dot} alt="" />
+                      <div>Write an essay about Pakistan and its political background</div>
+                  </div>
+                  <div className="response-div">
+                    <p>Pakistan, located at the crossroads of South Asia, is a country with a rich and complex political history that has significantly shaped its present state. Established in 1947, following the partition of British India, Pakistan emerged as an independent state for Muslims. The political landscape of the country has been marked by periods of democratic governance, military rule, and geopolitical challenges.</p>
+                    <p>The foundation of Pakistan was laid by Muhammad Ali Jinnah, the leader of the All-India Muslim League, who envisioned a separate nation for Muslims in the subcontinent. The creation of Pakistan was accompanied by the mass migration of populations between the newly formed states of India and Pakistan, resulting in one of the largest human migrations in history. The partition left deep scars and fueled tensions between India and Pakistan, setting the stage for a contentious relationship that continues to influence the political dynamics of the region.</p>
+                    <p>The early years of Pakistan's political history were characterized by a struggle to establish a stable governance structure. The country adopted its first constitution in 1956, establishing Pakistan as an Islamic Republic. However, political instability persisted, leading to periods of martial law and military coups. The military's involvement in politics reached its zenith with the imposition of martial law in 1977 by General Muhammad Zia-ul-Haq. Zia's rule, marked by authoritarianism and Islamization policies, significantly impacted the political and social fabric of the nation.</p>
+                    <p>The 1988 elections marked a turning point as Pakistan transitioned back to civilian rule. Benazir Bhutto, the daughter of former Prime Minister Zulfikar Ali Bhutto, became the first woman in Pakistan and in any Muslim-majority country to lead as Prime Minister. However, political instability continued with alternating periods of civilian and military rule.The military has played a significant role in shaping Pakistan's political landscape, often intervening in governance in response to perceived inefficiency or corruption. The coups of 1958, 1977, and 1999 underscore the military's historical influence. Despite this, Pakistan has experienced intervals of democratic rule, with elections held periodically. The 2008 elections marked a historic moment as Pakistan transitioned to civilian rule after nearly a decade of military leadership.</p>
+                    <p>
+Challenges such as corruption, economic disparity, and regional conflicts have remained persistent in Pakistani politics. Balancing the diverse needs of a population that includes various ethnicities, languages, and religious sects has been an ongoing challenge. The Federally Administered Tribal Areas (FATA) and the Balochistan region have been particularly sensitive areas, grappling with issues related to autonomy, development, and security.
+In recent years, Pakistan has witnessed efforts to strengthen democratic institutions, enhance governance, and address economic challenges. Civil society, media, and the judiciary have played vital roles in holding the government accountable. The China-Pakistan Economic Corridor (CPEC) has emerged as a significant economic initiative, fostering ties with China and aiming to transform Pakistan's economic landscape.</p>
+                    <p>
+As Pakistan continues to navigate its political trajectory, it faces a delicate balance between democratic governance, military influence, and regional stability. The country's ability to address internal challenges and foster international cooperation will play a crucial role in shaping its future. Pakistan's political journey remains a complex narrative, reflective of the broader dynamics shaping the South Asian region.</p>
+                  
+                  </div>
+              </div>);
+}
+export default Content;

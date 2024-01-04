@@ -12,6 +12,7 @@
     width: 100%;
     height: 90%;
     overflow: scroll;
+    padding-bottom: 50px;
 }
 .page::-webkit-scrollbar{
     display: none;
@@ -43,4 +44,72 @@
 }
 .response-div span{
     font-weight: 800;
+}
+.response-heading{
+    font-size: 16px;
+    font-weight: 800;
+}
+.response-book-unit{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.response-div-helper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+}
+.responser{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.response-heading-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.response-book-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.response-button{
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.response-div-upload{
+    width: 64px;
+    height: 74px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.response-div-upload:hover{
+    width: 69px;
+    height: 79px;
+}
+.response-upload-helper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0px;
+}
+.response-upload-desc{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }

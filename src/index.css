@@ -52,6 +52,9 @@
     }
 }
 @media (max-width:910px){
+    .response-div-helper{        
+        flex-direction: column;
+    }
     .box-options{
         position: absolute;
         top: 50%;
