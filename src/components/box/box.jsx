@@ -16,7 +16,7 @@ const Box=({type})=>{
                     )}
                     <BoxInput />
                 </div>
-                <BoxPfp />
+                <BoxPfp type={type}/>
             </div>
         </div>
         </>

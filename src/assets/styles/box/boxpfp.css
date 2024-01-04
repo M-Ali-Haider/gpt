@@ -3,6 +3,9 @@
     top: 2%;
     right: 1%;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 .box-pfp img{
     width: 55px;
@@ -23,4 +26,28 @@
 }
 .box-pfp-menu-border{
     border-bottom:0.5px solid #e0e0e0; 
+}
+.which-pfp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.back{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center center;
 }
