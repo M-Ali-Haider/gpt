@@ -7,6 +7,7 @@ import mg from '../../assets/images/mg.png'
 import vp from '../../assets/images/vp.png'
 import writing from '../../assets/images/writting.png'
 import back from '../../assets/images/back.svg'
+import bm from '../../assets/images/bm.svg'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 const BoxPfp=({type,handleSidebar})=>{
@@ -23,7 +24,9 @@ const BoxPfp=({type,handleSidebar})=>{
                     <img src={back} alt="" />
                 </Link>
             )}
-            <div className="bm-sub" onClick={handleSidebar}></div>
+            <div className="bm-sub" onClick={handleSidebar}>
+                <img src={bm} alt="" />
+            </div>
         </div>
         <div className="box-pfp" onClick={handleMenu}>
             {type==='homepage'?null

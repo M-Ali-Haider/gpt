@@ -1,5 +1,6 @@
 import '../../assets/styles/sidebar/sidebar.css'
 import logo from '../../assets/images/logo.svg'
+import cross from '../../assets/images/cross.svg'
 import SidebarSeg from './sidebarseg'
 import { Link } from 'react-router-dom'
 const Sidebar=({isSidebarOpen,closeSidebar})=>{
@@ -11,7 +12,9 @@ const Sidebar=({isSidebarOpen,closeSidebar})=>{
                     <img src={logo} alt=""/>
                 </Link>
                 <span>Learn A Lot</span>
-                <div onClick={closeSidebar} className="sidebar-close-arrow"></div>
+                <div onClick={closeSidebar} className="sidebar-close-arrow">
+                    <img src={cross} alt="" />
+                </div>
             </div>
             <div className="sidebar-helper">
                 <SidebarSeg />

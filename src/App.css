@@ -18,7 +18,15 @@ body{
 .bm-sub{
   width: 40px;
   height: 40px;
-  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bm-sub img{
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  object-position: center center;
 }
 .back{
   width: 40px;
