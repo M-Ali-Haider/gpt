@@ -3,7 +3,7 @@ import BoxInput from './boxInput'
 import BoxPfp from './boxpfp'
 import BoxOptions from './boxOptions'
 import BoxPage from '../pages/boxpage'
-const Box=({type})=>{
+const Box=({type,handleSidebar})=>{
     return(
         <>
         <div className={`box`}>
@@ -16,7 +16,7 @@ const Box=({type})=>{
                     )}
                     <BoxInput />
                 </div>
-                <BoxPfp type={type}/>
+                <BoxPfp type={type} handleSidebar={handleSidebar}/>
             </div>
         </div>
         </>

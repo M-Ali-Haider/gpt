@@ -16,18 +16,17 @@ function App() {
           isSidebarOpen={isSidebarOpen} 
           closeSidebar={closeSidebar}
         />
-        <Routes>
-          <Route path='/gpt/' element={<Box type="homepage"/>}/>
-          <Route path='/gpt/math' element={<Box type="math"/>}/>
-          <Route path='/gpt/slide' element={<Box type="slide"/>}/>
-          <Route path='/gpt/book' element={<Box type="book"/>}/>
-          <Route path='/gpt/content' element={<Box type="content"/>}/>
-          <Route path='/gpt/code' element={<Box type="code"/>}/>
-          <Route path='/gpt/chart' element={<Box type="chart"/>}/>
+        <Routes> handleSidebar={handleSidebar}
+          <Route path='/gpt/' element={<Box type="homepage" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/math' element={<Box type="math" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/slide' element={<Box type="slide" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/book' element={<Box type="book" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/content' element={<Box type="content" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/code' element={<Box type="code" handleSidebar={handleSidebar}/>}/>
+          <Route path='/gpt/chart' element={<Box type="chart" handleSidebar={handleSidebar}/>}/>
 
         </Routes>
       </Router>
-      <div className="bm" onClick={handleSidebar}></div>
     </>
   )
 }
