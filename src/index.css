@@ -159,7 +159,10 @@
         left: 0;
         border-radius:0;
     }
-    .bm-sub{
+    .back-pc{
+        display: none;
+    }
+    .bm{
         display: flex;
     }
     .box-center{

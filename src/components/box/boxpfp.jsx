@@ -28,6 +28,11 @@ const BoxPfp=({type,handleSidebar})=>{
                 <img src={bm} alt="" />
             </div>
         </div>
+        {type==='homepage'?null:(
+                <Link to="/gpt/" className="back-pc">
+                    <img src={back} alt="" />
+                </Link>
+            )}
         <div className="box-pfp">
             {type==='homepage'?null
             :(

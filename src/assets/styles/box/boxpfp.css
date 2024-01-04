@@ -34,3 +34,17 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 0.4);
 }
+.back-pc{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-pc img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    object-position: center center;
+}

@@ -13,6 +13,7 @@ body{
   z-index: 100;
   align-items: center;
   gap: 15px;
+  display: none;
 }
 .bm-sub{
   width: 40px;
@@ -20,7 +21,6 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
 }
 .bm-sub img{
   width: 24px;
