@@ -17,7 +17,7 @@ function App() {
           closeSidebar={closeSidebar}
         />
         <Routes>
-          <Route path='/gpt/' element={<Box type=""/>}/>
+          <Route path='/gpt/' element={<Box type="homepage"/>}/>
           <Route path='/gpt/math' element={<Box type="math"/>}/>
           <Route path='/gpt/slide' element={<Box type="slide"/>}/>
           <Route path='/gpt/book' element={<Box type="book"/>}/>

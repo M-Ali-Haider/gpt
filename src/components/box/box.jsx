@@ -2,13 +2,18 @@ import '../../assets/styles/box/box.css'
 import BoxInput from './boxInput'
 import BoxPfp from './boxpfp'
 import BoxOptions from './boxOptions'
-const Box=()=>{
+import BoxPage from '../pages/boxpage'
+const Box=({type})=>{
     return(
         <>
         <div className={`box`}>
             <div className="box-helper">
                 <div className="box-center">
-                    <BoxOptions />
+                    {type==="homepage"?(
+                        <BoxOptions />
+                    ):(
+                        <BoxPage type={type}/>
+                    )}
                     <BoxInput />
                 </div>
                 <BoxPfp />

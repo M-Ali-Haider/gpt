@@ -6,14 +6,13 @@ const Sidebar=({isSidebarOpen,closeSidebar})=>{
     return(
         <>
         <div className={`sidebar ${isSidebarOpen?'sidebar-open':''}`}>
-            <Link to="/gpt/">
-                <div className="sidebar-logo">
+            <div className="sidebar-logo">
+                <Link to="/gpt/">
                     <img src={logo} alt=""/>
-                    <span>Learn A Lot</span>
-                    <div onClick={closeSidebar} className="sidebar-close-arrow"></div>
-                </div>
-            </Link>
-            
+                </Link>
+                <span>Learn A Lot</span>
+                <div onClick={closeSidebar} className="sidebar-close-arrow"></div>
+            </div>
             <div className="sidebar-helper">
                 <SidebarSeg />
                 <SidebarSeg />
